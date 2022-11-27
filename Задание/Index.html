@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <section class="verh">
+    <img class="dom" src="/Img/Group 4.png" >
+       <h1 class="kad">Kadigroup</h1>
+        </section>
+        <div class="nav">
+            <ul>
+                <a href="#">
+                    <li>О нас</li>
+                </a>
+                <a href="#">
+                    <li>Услуги</li>
+                </a>
+                <a href="#">
+                    <li>Контакты</li>
+                </a>
+            </ul>
+        </div>
+    <section class="menu">
+        <img src="/Img/бургер.svg"> 
+    </section>
+    </header>
+
+
+<div class="foto">
+<img src="/Img/image 1.png">   
+</div>
+<div class="first">
+    <img src="/Img/Rectangle 3.png">
+    <div class="first1">
+        <p>Краткое описание</p>
+        <button class="knopka">Кнопка</button>
+    </div>
+</div>
+<div class="first2">
+    <img src="/Img/Rectangle 4.png">
+        <button class="knopka1">Кнопка</button>
+</div>
+<div class="first">
+    <img src="/Img/Rectangle 5.png">
+    <div class="first1">
+        <button class="knopka2">Кнопка</button>
+    </div>
+</div>
+<div class="first2">
+    <img src="/Img/Rectangle 6.png">
+    <button class="knopka1">Кнопка</button>
+    
+</div>
+<h1 class="us">О нас</h1>
+<div class="text">
+    <p class="text1">текст</p>
+</div>
+<div class="content">
+    
+<div class="blok"></div>
+<div class="blok"></div>
+<div class="blok"></div>
+<div class="blok"></div>
+<div class="blok"></div>
+</div>
+<footer>
+    <img class="logotip" src="/Img/логотип.png">
+    <section class="tree">
+        <P>о нас</P>
+        <P>форма обратной связи</P>
+        <P>выбор услуг</P>
+    </section>
+    <p class="kont">контактная информация</p>
+    <section class="soc">
+        <img src="/Img/vk.svg" >
+        <img src="/Img/inst.svg" >
+        <img src="/Img/tele.svg" >
+
+    </section>
+</footer>
+<script>
+    const menu = document.querySelector('.menu')
+    const nav = document.querySelector('.nav')
+
+    menu.addEventListener('click', () => {
+        if(nav.classList.contains('open-nav')) {
+
+            nav.classList.remove('open-nav');
+
+        } else {
+
+            nav.classList.add('open-nav');
+
+        }});
+        
+
+</script>
+</body>
+</html>
